@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homePage"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home_p"
+        android:visible="true"
+        android:iconTint="@color/black" />
+    <item
+        android:id="@+id/catalogPage"
+        android:icon="@drawable/ic_catalog"
+        android:title="@string/catalog"
+        android:visible="true"
+        android:iconTint="@color/black" />
+    <item
+        android:id="@+id/servicePage"
+        android:icon="@drawable/ic_shopping_cart"
+        android:visible="true"
+        android:title="@string/cart"
+        android:iconTint="@color/black" />
+
+    <item
+        android:id="@+id/contactPage"
+        android:icon="@drawable/ic_phone"
+        android:visible="true"
+        android:title="@string/contact"
+        android:iconTint="@color/black"/>
+    <item
+        android:id="@+id/userPage"
+        android:icon="@drawable/ic_shopping_cart"
+        android:title="@string/cart"
+        android:visible="false"
+        android:iconTint="@color/black" />
+
+</menu>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Off_Courses</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="course_off">Course-Off</string>
+    <string name="search_link">search_link</string>
+    <string name="cart">Корзина</string>
+    <string name="catalog">Каталог</string>
+    <string name="contact">Контакты</string>
+    <string name="home_p">Главная</string>
+    <string name="filter">ФИЛЬТР</string>
+    <string name="authorization">authorization</string>
+    <string name="authorization26">authorization26</string>
+</resources>

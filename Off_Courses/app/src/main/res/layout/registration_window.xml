@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardElevation = "10dp"
+    android:background="#FFFFFF"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        >
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/nameField"
+            android:hint="Введите имя"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textColorHint="@color/design_default_color_primary"
+            android:textSize="20sp"
+            app:met_floatingLabel="highlight"
+            >
+        </com.rengwuxian.materialedittext.MaterialEditText>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/emailField"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textColorHint="@color/design_default_color_primary"
+            android:textSize="20sp"
+            app:met_floatingLabel="highlight"
+            >
+        </com.rengwuxian.materialedittext.MaterialEditText>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/passwordField"
+            android:hint="Введите пароль"
+            android:inputType="textPassword"
+            android:text=""
+            app:met_minCharacters="5"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textColorHint="@color/design_default_color_primary"
+            android:textSize="20sp"
+            app:met_floatingLabel="highlight"
+            >
+        </com.rengwuxian.materialedittext.MaterialEditText>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/passConfirmField"
+            android:hint="Подтвердите пароль"
+            android:inputType="textPassword"
+            android:text=""
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textColorHint="@color/design_default_color_primary"
+            android:textSize="20sp"
+            app:met_floatingLabel="highlight"
+            >
+        </com.rengwuxian.materialedittext.MaterialEditText>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/phoneField"
+            android:hint="Номер телефона"
+            android:inputType="phone"
+            android:text=""
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textColorHint="@color/design_default_color_primary"
+            android:textSize="20sp"
+            app:met_floatingLabel="highlight"
+            >
+        </com.rengwuxian.materialedittext.MaterialEditText>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
